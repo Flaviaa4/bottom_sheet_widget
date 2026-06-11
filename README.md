@@ -1,17 +1,28 @@
-# bs_widget
+# Flutter Bottom Sheet Widget
 
-A new Flutter project.
+A bottom sheet widget is a widget that slides up from the bottom of the screen to display additional actions or information without navigation to a new page
 
-## Getting Started
+## How to run
 
-This project is a starting point for a Flutter application.
+1. clone the repository on GitHub
+2. Open the project in VS code or Android studio
+3. run the following command in your terminal:
+```bash
+flutter pub get 
+flutter run
+```
+## One of the Attributes i used
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Context
+Provides access to the current widget tree and is required to display the bottom sheet.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 2. Shape
+Defines the appearance of the bottom sheet's border
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3.mainAxisSize 
+Controls how much vertical space the column occupies.
+
+## Screenshot
+C:\FlutterProjects\bs_widget\images
+
+
